@@ -9,4 +9,5 @@ Borrowing and ownership are dictated by underlying methods but what I found most
 as they are changed at the end of the method:
 
 &nbsp;&nbsp;&nbsp;&nbsp;CONFIG.save(deps.storage, &config)?;
+
 &nbsp;&nbsp;&nbsp;&nbsp;TOTAL.save(deps.storage, &0)?;
