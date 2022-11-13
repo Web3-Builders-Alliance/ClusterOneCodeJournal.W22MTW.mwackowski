@@ -7,5 +7,6 @@ I focused primarly on instantiate and execute methods as they required getting f
 Comments are provided in the code - both methods use either structs or enums. 
 Borrowing and ownership are dictated by underlying methods but what I found most interesting was that instantiate() dependencies need to be mutable
 as they are changed at the end of the method:
-    CONFIG.save(deps.storage, &config)?;
-    TOTAL.save(deps.storage, &0)?;
+
+&nbsp;&nbsp;&nbsp;&nbsp;CONFIG.save(deps.storage, &config)?;
+&nbsp;&nbsp;&nbsp;&nbsp;TOTAL.save(deps.storage, &0)?;
