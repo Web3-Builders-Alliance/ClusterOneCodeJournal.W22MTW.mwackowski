@@ -8,6 +8,6 @@ Comments are provided in the code - both methods use either structs or enums.
 Borrowing and ownership are dictated by underlying methods but what I found most interesting was that instantiate() dependencies need to be mutable
 as they are changed at the end of the method:
 
-&nbsp;&nbsp;&nbsp;&nbsp;CONFIG.save(deps.storage, &config)?;
+* CONFIG.save(deps.storage, &config)?;
 
-&nbsp;&nbsp;&nbsp;&nbsp;TOTAL.save(deps.storage, &0)?;
+* TOTAL.save(deps.storage, &0)?;
